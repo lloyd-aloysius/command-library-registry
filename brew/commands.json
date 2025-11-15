@@ -1,0 +1,4 @@
+[
+  { "id": "brew_update", "command": "brew update", "title": "Update Homebrew", "description": "Fetch latest brew formulae" },
+  { "id": "brew_upgrade", "command": "brew upgrade", "title": "Upgrade packages", "description": "Upgrade all installed formulae" }
+]
