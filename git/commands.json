@@ -1,0 +1,5 @@
+[
+  { "id": "git_status", "command": "git status", "title": "Status", "description": "Show working tree status" },
+  { "id": "git_commit", "command": "git commit -m \"message\"", "title": "Commit", "description": "Commit staged changes" },
+  { "id": "git_log", "command": "git log --oneline --graph", "title": "Log", "description": "Pretty commit history" }
+]
