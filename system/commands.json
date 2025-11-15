@@ -1,0 +1,4 @@
+[
+  { "id": "disk_usage", "command": "df -h", "title": "Disk usage", "description": "Show filesystem disk usage" },
+  { "id": "list_processes", "command": "ps aux", "title": "List processes", "description": "Show running processes" }
+]
