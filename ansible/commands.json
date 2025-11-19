@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ansible_ping",
+    "command": "ansible all -m ping",
+    "title": "Ping hosts",
+    "description": "Ping all hosts in the inventory"
+  },
+  {
+    "id": "ansible_playbook",
+    "command": "ansible-playbook <playbook.yml>",
+    "title": "Run Playbook",
+    "description": "Run an Ansible playbook"
+  },
+  {
+    "id": "ansible_inventory",
+    "command": "ansible-inventory --list",
+    "title": "List Inventory",
+    "description": "List the inventory structure"
+  }
+]

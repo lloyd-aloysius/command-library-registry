@@ -1,0 +1,20 @@
+[
+  {
+    "id": "esphome_run",
+    "command": "esphome run <file.yaml>",
+    "title": "Run",
+    "description": "Validate, compile, and upload"
+  },
+  {
+    "id": "esphome_logs",
+    "command": "esphome logs <file.yaml>",
+    "title": "Logs",
+    "description": "Monitor logs"
+  },
+  {
+    "id": "esphome_dashboard",
+    "command": "esphome dashboard config/",
+    "title": "Dashboard",
+    "description": "Start the dashboard"
+  }
+]

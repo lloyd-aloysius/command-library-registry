@@ -1,0 +1,20 @@
+[
+  {
+    "id": "parquet_cat",
+    "command": "parquet-tools cat <file.parquet>",
+    "title": "Cat",
+    "description": "Print content of parquet file"
+  },
+  {
+    "id": "parquet_schema",
+    "command": "parquet-tools schema <file.parquet>",
+    "title": "Schema",
+    "description": "Show schema of parquet file"
+  },
+  {
+    "id": "parquet_meta",
+    "command": "parquet-tools meta <file.parquet>",
+    "title": "Metadata",
+    "description": "Show metadata of parquet file"
+  }
+]

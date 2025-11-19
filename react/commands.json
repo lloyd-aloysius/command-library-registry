@@ -1,0 +1,20 @@
+[
+  {
+    "id": "create_react_app",
+    "command": "npx create-react-app <name>",
+    "title": "Create App",
+    "description": "Create a new React application"
+  },
+  {
+    "id": "react_start",
+    "command": "npm start",
+    "title": "Start Dev Server",
+    "description": "Start the development server"
+  },
+  {
+    "id": "react_build",
+    "command": "npm run build",
+    "title": "Build",
+    "description": "Build the app for production"
+  }
+]

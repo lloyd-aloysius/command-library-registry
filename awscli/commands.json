@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aws_configure",
+    "command": "aws configure",
+    "title": "Configure",
+    "description": "Configure AWS CLI options"
+  },
+  {
+    "id": "aws_s3_ls",
+    "command": "aws s3 ls",
+    "title": "List Buckets",
+    "description": "List S3 buckets"
+  },
+  {
+    "id": "aws_s3_cp",
+    "command": "aws s3 cp <source> <dest>",
+    "title": "S3 Copy",
+    "description": "Copy files to/from S3"
+  },
+  {
+    "id": "aws_s3_sync",
+    "command": "aws s3 sync <source> <dest>",
+    "title": "S3 Sync",
+    "description": "Sync directories to/from S3"
+  },
+  {
+    "id": "aws_ec2_ls",
+    "command": "aws ec2 describe-instances",
+    "title": "List Instances",
+    "description": "List EC2 instances"
+  },
+  {
+    "id": "aws_lambda_ls",
+    "command": "aws lambda list-functions",
+    "title": "List Functions",
+    "description": "List Lambda functions"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "tshark_interface",
+    "command": "tshark -i <interface>",
+    "title": "Capture Interface",
+    "description": "Capture on specific interface"
+  },
+  {
+    "id": "tshark_read",
+    "command": "tshark -r <file.pcap>",
+    "title": "Read File",
+    "description": "Read a capture file"
+  }
+]

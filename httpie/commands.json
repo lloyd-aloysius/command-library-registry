@@ -1,0 +1,14 @@
+[
+  {
+    "id": "http_get",
+    "command": "http <url>",
+    "title": "GET request",
+    "description": "Send a GET request"
+  },
+  {
+    "id": "http_post",
+    "command": "http POST <url> name=value",
+    "title": "POST request",
+    "description": "Send a POST request with data"
+  }
+]

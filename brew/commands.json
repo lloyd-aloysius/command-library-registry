@@ -1,4 +1,56 @@
 [
-  { "id": "brew_update", "command": "brew update", "title": "Update Homebrew", "description": "Fetch latest brew formulae" },
-  { "id": "brew_upgrade", "command": "brew upgrade", "title": "Upgrade packages", "description": "Upgrade all installed formulae" }
+  {
+    "id": "brew_update",
+    "command": "brew update",
+    "title": "Update Homebrew",
+    "description": "Fetch latest brew formulae"
+  },
+  {
+    "id": "brew_upgrade",
+    "command": "brew upgrade",
+    "title": "Upgrade packages",
+    "description": "Upgrade all installed formulae"
+  },
+  {
+    "id": "brew_install",
+    "command": "brew install <package>",
+    "title": "Install package",
+    "description": "Install a new package"
+  },
+  {
+    "id": "brew_uninstall",
+    "command": "brew uninstall <package>",
+    "title": "Uninstall package",
+    "description": "Uninstall a package"
+  },
+  {
+    "id": "brew_list",
+    "command": "brew list",
+    "title": "List packages",
+    "description": "List installed packages"
+  },
+  {
+    "id": "brew_search",
+    "command": "brew search <query>",
+    "title": "Search packages",
+    "description": "Search for a package"
+  },
+  {
+    "id": "brew_info",
+    "command": "brew info <package>",
+    "title": "Package info",
+    "description": "Display information about a package"
+  },
+  {
+    "id": "brew_cleanup",
+    "command": "brew cleanup",
+    "title": "Cleanup",
+    "description": "Remove stale lock files and outdated downloads"
+  },
+  {
+    "id": "brew_doctor",
+    "command": "brew doctor",
+    "title": "Doctor",
+    "description": "Check your system for potential problems"
+  }
 ]

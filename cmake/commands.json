@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cmake_gen",
+    "command": "cmake .",
+    "title": "Generate",
+    "description": "Generate build files"
+  },
+  {
+    "id": "cmake_build",
+    "command": "cmake --build .",
+    "title": "Build",
+    "description": "Build the project"
+  }
+]

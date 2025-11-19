@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cloudflared_tunnel_run",
+    "command": "cloudflared tunnel run <name>",
+    "title": "Run Tunnel",
+    "description": "Run a Cloudflare tunnel"
+  },
+  {
+    "id": "cloudflared_login",
+    "command": "cloudflared tunnel login",
+    "title": "Login",
+    "description": "Login to Cloudflare"
+  }
+]

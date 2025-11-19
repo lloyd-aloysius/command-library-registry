@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sqlite_open",
+    "command": "sqlite3 <file.db>",
+    "title": "Open DB",
+    "description": "Open a SQLite database"
+  },
+  {
+    "id": "sqlite_dump",
+    "command": "sqlite3 <file.db> .dump > dump.sql",
+    "title": "Dump DB",
+    "description": "Dump database to SQL file"
+  }
+]

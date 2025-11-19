@@ -1,0 +1,26 @@
+[
+  {
+    "id": "scrapy_startproject",
+    "command": "scrapy startproject <name>",
+    "title": "Start Project",
+    "description": "Create a new Scrapy project"
+  },
+  {
+    "id": "scrapy_genspider",
+    "command": "scrapy genspider <name> <domain>",
+    "title": "Gen Spider",
+    "description": "Generate a new spider"
+  },
+  {
+    "id": "scrapy_crawl",
+    "command": "scrapy crawl <spider>",
+    "title": "Crawl",
+    "description": "Run a spider"
+  },
+  {
+    "id": "scrapy_shell",
+    "command": "scrapy shell <url>",
+    "title": "Shell",
+    "description": "Interactive scraping shell"
+  }
+]

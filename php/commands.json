@@ -1,0 +1,20 @@
+[
+  {
+    "id": "php_ver",
+    "command": "php -v",
+    "title": "Version",
+    "description": "Check PHP version"
+  },
+  {
+    "id": "php_server",
+    "command": "php -S localhost:8000",
+    "title": "Built-in server",
+    "description": "Start built-in web server"
+  },
+  {
+    "id": "php_run",
+    "command": "php <file.php>",
+    "title": "Run file",
+    "description": "Execute a PHP file"
+  }
+]

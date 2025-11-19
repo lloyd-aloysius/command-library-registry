@@ -1,0 +1,26 @@
+[
+  {
+    "id": "uname",
+    "command": "uname -a",
+    "title": "System info",
+    "description": "Print system information"
+  },
+  {
+    "id": "whoami",
+    "command": "whoami",
+    "title": "Current user",
+    "description": "Print effective userid"
+  },
+  {
+    "id": "uptime",
+    "command": "uptime",
+    "title": "Uptime",
+    "description": "Tell how long the system has been running"
+  },
+  {
+    "id": "free",
+    "command": "free -h",
+    "title": "Memory usage",
+    "description": "Display amount of free and used memory"
+  }
+]

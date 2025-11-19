@@ -1,0 +1,14 @@
+[
+  {
+    "id": "n8n_start",
+    "command": "n8n start",
+    "title": "Start n8n",
+    "description": "Start the n8n server"
+  },
+  {
+    "id": "n8n_tunnel",
+    "command": "n8n start --tunnel",
+    "title": "Start with Tunnel",
+    "description": "Start n8n with a tunnel for webhooks"
+  }
+]

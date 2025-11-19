@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gpg_gen_key",
+    "command": "gpg --full-generate-key",
+    "title": "Gen Key",
+    "description": "Generate a new GPG key"
+  },
+  {
+    "id": "gpg_list_keys",
+    "command": "gpg --list-keys",
+    "title": "List Keys",
+    "description": "List known keys"
+  },
+  {
+    "id": "gpg_encrypt",
+    "command": "gpg --encrypt --recipient <email> <file>",
+    "title": "Encrypt",
+    "description": "Encrypt a file"
+  },
+  {
+    "id": "gpg_decrypt",
+    "command": "gpg --decrypt <file.gpg>",
+    "title": "Decrypt",
+    "description": "Decrypt a file"
+  }
+]

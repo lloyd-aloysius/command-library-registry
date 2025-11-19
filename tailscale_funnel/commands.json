@@ -1,0 +1,8 @@
+[
+  {
+    "id": "tailscale_funnel",
+    "command": "tailscale funnel <port>",
+    "title": "Funnel",
+    "description": "Expose a local service to the public internet"
+  }
+]

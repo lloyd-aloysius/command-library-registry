@@ -1,0 +1,14 @@
+[
+  {
+    "id": "jq_pretty",
+    "command": "jq . <file.json>",
+    "title": "Pretty Print",
+    "description": "Pretty print JSON"
+  },
+  {
+    "id": "jq_keys",
+    "command": "jq 'keys' <file.json>",
+    "title": "Keys",
+    "description": "Output keys of the root object"
+  }
+]

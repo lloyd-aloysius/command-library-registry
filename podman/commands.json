@@ -1,0 +1,26 @@
+[
+  {
+    "id": "podman_run",
+    "command": "podman run -it <image>",
+    "title": "Run",
+    "description": "Run a container"
+  },
+  {
+    "id": "podman_ps",
+    "command": "podman ps",
+    "title": "List Containers",
+    "description": "List running containers"
+  },
+  {
+    "id": "podman_images",
+    "command": "podman images",
+    "title": "List Images",
+    "description": "List images"
+  },
+  {
+    "id": "podman_build",
+    "command": "podman build -t <tag> .",
+    "title": "Build",
+    "description": "Build an image"
+  }
+]

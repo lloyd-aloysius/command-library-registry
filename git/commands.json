@@ -1,5 +1,86 @@
 [
-  { "id": "git_status", "command": "git status", "title": "Status", "description": "Show working tree status" },
-  { "id": "git_commit", "command": "git commit -m \"message\"", "title": "Commit", "description": "Commit staged changes" },
-  { "id": "git_log", "command": "git log --oneline --graph", "title": "Log", "description": "Pretty commit history" }
+  {
+    "id": "git_init",
+    "command": "git init",
+    "title": "Initialize repository",
+    "description": "Create an empty Git repository or reinitialize an existing one"
+  },
+  {
+    "id": "git_clone",
+    "command": "git clone <url>",
+    "title": "Clone repository",
+    "description": "Clone a repository into a new directory"
+  },
+  {
+    "id": "git_status",
+    "command": "git status",
+    "title": "Show status",
+    "description": "Show the working tree status"
+  },
+  {
+    "id": "git_add",
+    "command": "git add .",
+    "title": "Add all files",
+    "description": "Add file contents to the index"
+  },
+  {
+    "id": "git_commit",
+    "command": "git commit -m \"<message>\"",
+    "title": "Commit changes",
+    "description": "Record changes to the repository"
+  },
+  {
+    "id": "git_push",
+    "command": "git push",
+    "title": "Push changes",
+    "description": "Update remote refs along with associated objects"
+  },
+  {
+    "id": "git_pull",
+    "command": "git pull",
+    "title": "Pull changes",
+    "description": "Fetch from and integrate with another repository or a local branch"
+  },
+  {
+    "id": "git_branch",
+    "command": "git branch",
+    "title": "List branches",
+    "description": "List, create, or delete branches"
+  },
+  {
+    "id": "git_checkout",
+    "command": "git checkout <branch>",
+    "title": "Checkout branch",
+    "description": "Switch branches or restore working tree files"
+  },
+  {
+    "id": "git_merge",
+    "command": "git merge <branch>",
+    "title": "Merge branch",
+    "description": "Join two or more development histories together"
+  },
+  {
+    "id": "git_log",
+    "command": "git log --oneline --graph --decorate",
+    "title": "Show log",
+    "description": "Show commit logs"
+  },
+  {
+    "id": "git_diff",
+    "command": "git diff",
+    "title": "Show diff",
+    "description": "Show changes between commits, commit and working tree, etc"
+  },
+  {
+    "id": "git_stash",
+    "command": "git stash",
+    "title": "Stash changes",
+    "description": "Stash the changes in a dirty working directory away"
+  },
+  {
+    "id": "git_remote",
+    "command": "git remote -v",
+    "title": "Show remotes",
+    "description": "Manage set of tracked repositories"
+  }
 ]

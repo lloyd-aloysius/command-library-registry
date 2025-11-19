@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ssh_connect",
+    "command": "ssh <user>@<host>",
+    "title": "Connect",
+    "description": "Connect to a remote host"
+  },
+  {
+    "id": "ssh_keygen",
+    "command": "ssh-keygen -t rsa",
+    "title": "Generate key",
+    "description": "Generate a new SSH key pair"
+  },
+  {
+    "id": "scp_upload",
+    "command": "scp <file> <user>@<host>:<dest>",
+    "title": "SCP Upload",
+    "description": "Copy file to remote host"
+  },
+  {
+    "id": "scp_download",
+    "command": "scp <user>@<host>:<file> <dest>",
+    "title": "SCP Download",
+    "description": "Copy file from remote host"
+  }
+]

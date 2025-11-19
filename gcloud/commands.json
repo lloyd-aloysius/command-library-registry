@@ -1,0 +1,32 @@
+[
+  {
+    "id": "gcloud_auth",
+    "command": "gcloud auth login",
+    "title": "Login",
+    "description": "Authorize gcloud to access the Cloud Platform"
+  },
+  {
+    "id": "gcloud_config_set",
+    "command": "gcloud config set project <project_id>",
+    "title": "Set Project",
+    "description": "Set the active project"
+  },
+  {
+    "id": "gcloud_projects_list",
+    "command": "gcloud projects list",
+    "title": "List projects",
+    "description": "List your active projects"
+  },
+  {
+    "id": "gcloud_compute_instances",
+    "command": "gcloud compute instances list",
+    "title": "List Instances",
+    "description": "List Compute Engine instances"
+  },
+  {
+    "id": "gcloud_app_deploy",
+    "command": "gcloud app deploy",
+    "title": "Deploy App",
+    "description": "Deploy an App Engine application"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "hass_cli_status",
+    "command": "hass-cli system info",
+    "title": "System Info",
+    "description": "Show Home Assistant system info"
+  },
+  {
+    "id": "hass_cli_list",
+    "command": "hass-cli state list",
+    "title": "List States",
+    "description": "List all states"
+  }
+]

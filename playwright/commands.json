@@ -1,0 +1,20 @@
+[
+  {
+    "id": "playwright_install",
+    "command": "npx playwright install",
+    "title": "Install Browsers",
+    "description": "Install Playwright browsers"
+  },
+  {
+    "id": "playwright_test",
+    "command": "npx playwright test",
+    "title": "Run Tests",
+    "description": "Run Playwright tests"
+  },
+  {
+    "id": "playwright_codegen",
+    "command": "npx playwright codegen <url>",
+    "title": "Codegen",
+    "description": "Generate tests by recording actions"
+  }
+]

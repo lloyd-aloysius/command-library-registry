@@ -1,0 +1,20 @@
+[
+  {
+    "id": "k3s_server",
+    "command": "sudo k3s server",
+    "title": "Start Server",
+    "description": "Start k3s server"
+  },
+  {
+    "id": "k3s_agent",
+    "command": "sudo k3s agent",
+    "title": "Start Agent",
+    "description": "Start k3s agent"
+  },
+  {
+    "id": "k3s_kubectl",
+    "command": "sudo k3s kubectl get nodes",
+    "title": "Get Nodes",
+    "description": "Use bundled kubectl"
+  }
+]

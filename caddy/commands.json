@@ -1,0 +1,26 @@
+[
+  {
+    "id": "caddy_run",
+    "command": "caddy run",
+    "title": "Run",
+    "description": "Run Caddy and block"
+  },
+  {
+    "id": "caddy_start",
+    "command": "caddy start",
+    "title": "Start",
+    "description": "Start Caddy in the background"
+  },
+  {
+    "id": "caddy_reload",
+    "command": "caddy reload",
+    "title": "Reload",
+    "description": "Reload configuration"
+  },
+  {
+    "id": "caddy_file_server",
+    "command": "caddy file-server",
+    "title": "File Server",
+    "description": "Start a simple file server"
+  }
+]

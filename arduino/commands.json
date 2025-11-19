@@ -1,0 +1,20 @@
+[
+  {
+    "id": "arduino_compile",
+    "command": "arduino-cli compile --fqbn <board> <sketch>",
+    "title": "Compile",
+    "description": "Compile Arduino sketch"
+  },
+  {
+    "id": "arduino_upload",
+    "command": "arduino-cli upload -p <port> --fqbn <board> <sketch>",
+    "title": "Upload",
+    "description": "Upload sketch to board"
+  },
+  {
+    "id": "arduino_board_list",
+    "command": "arduino-cli board list",
+    "title": "List Boards",
+    "description": "List connected boards"
+  }
+]

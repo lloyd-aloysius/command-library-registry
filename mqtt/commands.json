@@ -1,0 +1,14 @@
+[
+  {
+    "id": "mosquitto_sub",
+    "command": "mosquitto_sub -h <host> -t <topic>",
+    "title": "Subscribe",
+    "description": "Subscribe to a topic"
+  },
+  {
+    "id": "mosquitto_pub",
+    "command": "mosquitto_pub -h <host> -t <topic> -m <message>",
+    "title": "Publish",
+    "description": "Publish a message"
+  }
+]

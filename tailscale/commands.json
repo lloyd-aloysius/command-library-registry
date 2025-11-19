@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tailscale_up",
+    "command": "tailscale up",
+    "title": "Up",
+    "description": "Connect to Tailscale"
+  },
+  {
+    "id": "tailscale_down",
+    "command": "tailscale down",
+    "title": "Down",
+    "description": "Disconnect from Tailscale"
+  },
+  {
+    "id": "tailscale_status",
+    "command": "tailscale status",
+    "title": "Status",
+    "description": "Show Tailscale status"
+  },
+  {
+    "id": "tailscale_ip",
+    "command": "tailscale ip",
+    "title": "Show IP",
+    "description": "Show Tailscale IP addresses"
+  }
+]

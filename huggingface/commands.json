@@ -1,0 +1,14 @@
+[
+  {
+    "id": "huggingface_login",
+    "command": "huggingface-cli login",
+    "title": "Login",
+    "description": "Log in to Hugging Face"
+  },
+  {
+    "id": "huggingface_download",
+    "command": "huggingface-cli download <repo_id> <filename>",
+    "title": "Download",
+    "description": "Download a file from the Hub"
+  }
+]

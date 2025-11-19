@@ -1,0 +1,20 @@
+[
+  {
+    "id": "xcodebuild_build",
+    "command": "xcodebuild -scheme <scheme> build",
+    "title": "Build",
+    "description": "Build the scheme"
+  },
+  {
+    "id": "xcodebuild_test",
+    "command": "xcodebuild -scheme <scheme> test",
+    "title": "Test",
+    "description": "Test the scheme"
+  },
+  {
+    "id": "xcodebuild_clean",
+    "command": "xcodebuild clean",
+    "title": "Clean",
+    "description": "Clean the build"
+  }
+]

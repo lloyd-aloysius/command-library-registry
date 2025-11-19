@@ -1,0 +1,26 @@
+[
+  {
+    "id": "az_login",
+    "command": "az login",
+    "title": "Login",
+    "description": "Log in to Azure"
+  },
+  {
+    "id": "az_group_list",
+    "command": "az group list --output table",
+    "title": "List Groups",
+    "description": "List resource groups"
+  },
+  {
+    "id": "az_vm_list",
+    "command": "az vm list --output table",
+    "title": "List VMs",
+    "description": "List virtual machines"
+  },
+  {
+    "id": "az_webapp_list",
+    "command": "az webapp list --output table",
+    "title": "List WebApps",
+    "description": "List web apps"
+  }
+]

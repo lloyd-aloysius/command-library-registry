@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mas_list",
+    "command": "mas list",
+    "title": "List Apps",
+    "description": "List installed Mac App Store apps"
+  },
+  {
+    "id": "mas_search",
+    "command": "mas search <query>",
+    "title": "Search",
+    "description": "Search for apps"
+  },
+  {
+    "id": "mas_install",
+    "command": "mas install <id>",
+    "title": "Install",
+    "description": "Install an app by ID"
+  },
+  {
+    "id": "mas_upgrade",
+    "command": "mas upgrade",
+    "title": "Upgrade",
+    "description": "Upgrade all apps"
+  }
+]

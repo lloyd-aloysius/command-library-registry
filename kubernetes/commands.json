@@ -1,4 +1,56 @@
 [
-  { "id": "kube_get_pods", "command": "kubectl get pods", "title": "Get Pods", "description": "List all pods in namespace" },
-  { "id": "kube_logs", "command": "kubectl logs <pod>", "title": "View logs", "description": "Print container logs" }
+  {
+    "id": "kubectl_get_pods",
+    "command": "kubectl get pods",
+    "title": "Get Pods",
+    "description": "List all pods in the namespace"
+  },
+  {
+    "id": "kubectl_get_services",
+    "command": "kubectl get services",
+    "title": "Get Services",
+    "description": "List all services in the namespace"
+  },
+  {
+    "id": "kubectl_get_deployments",
+    "command": "kubectl get deployments",
+    "title": "Get Deployments",
+    "description": "List all deployments"
+  },
+  {
+    "id": "kubectl_logs",
+    "command": "kubectl logs <pod_name>",
+    "title": "Pod Logs",
+    "description": "Print the logs for a container in a pod"
+  },
+  {
+    "id": "kubectl_describe",
+    "command": "kubectl describe pod <pod_name>",
+    "title": "Describe Pod",
+    "description": "Show details of a specific pod"
+  },
+  {
+    "id": "kubectl_apply",
+    "command": "kubectl apply -f <file.yaml>",
+    "title": "Apply YAML",
+    "description": "Apply a configuration to a resource by filename or stdin"
+  },
+  {
+    "id": "kubectl_delete",
+    "command": "kubectl delete -f <file.yaml>",
+    "title": "Delete Resource",
+    "description": "Delete resources by filenames, stdin, resources and names"
+  },
+  {
+    "id": "kubectl_exec",
+    "command": "kubectl exec -it <pod_name> -- /bin/bash",
+    "title": "Exec into Pod",
+    "description": "Execute a command in a container"
+  },
+  {
+    "id": "kubectl_port_forward",
+    "command": "kubectl port-forward <pod_name> <local_port>:<remote_port>",
+    "title": "Port Forward",
+    "description": "Forward one or more local ports to a pod"
+  }
 ]

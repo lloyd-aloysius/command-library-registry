@@ -1,4 +1,110 @@
 [
-  { "id": "disk_usage", "command": "df -h", "title": "Disk usage", "description": "Show filesystem disk usage" },
-  { "id": "list_processes", "command": "ps aux", "title": "List processes", "description": "Show running processes" }
+  {
+    "id": "ls",
+    "command": "ls -la",
+    "title": "List files",
+    "description": "List all files including hidden ones"
+  },
+  {
+    "id": "cd",
+    "command": "cd <dir>",
+    "title": "Change directory",
+    "description": "Change the current working directory"
+  },
+  {
+    "id": "pwd",
+    "command": "pwd",
+    "title": "Print working directory",
+    "description": "Print the name of the current working directory"
+  },
+  {
+    "id": "cp",
+    "command": "cp -r <source> <dest>",
+    "title": "Copy",
+    "description": "Copy files and directories"
+  },
+  {
+    "id": "mv",
+    "command": "mv <source> <dest>",
+    "title": "Move",
+    "description": "Move or rename files"
+  },
+  {
+    "id": "rm",
+    "command": "rm -rf <path>",
+    "title": "Remove",
+    "description": "Remove files or directories recursively"
+  },
+  {
+    "id": "mkdir",
+    "command": "mkdir -p <dir>",
+    "title": "Make directory",
+    "description": "Create a directory and parents if needed"
+  },
+  {
+    "id": "touch",
+    "command": "touch <file>",
+    "title": "Create file",
+    "description": "Update timestamps or create empty file"
+  },
+  {
+    "id": "cat",
+    "command": "cat <file>",
+    "title": "Concatenate",
+    "description": "Concatenate files and print on the standard output"
+  },
+  {
+    "id": "grep",
+    "command": "grep -r \"<pattern>\" .",
+    "title": "Grep",
+    "description": "Search for pattern in files recursively"
+  },
+  {
+    "id": "find",
+    "command": "find . -name \"<pattern>\"",
+    "title": "Find",
+    "description": "Search for files in a directory hierarchy"
+  },
+  {
+    "id": "df",
+    "command": "df -h",
+    "title": "Disk space",
+    "description": "Show disk space usage"
+  },
+  {
+    "id": "du",
+    "command": "du -sh .",
+    "title": "Directory size",
+    "description": "Show size of current directory"
+  },
+  {
+    "id": "top",
+    "command": "top",
+    "title": "Processes",
+    "description": "Display Linux processes"
+  },
+  {
+    "id": "ps",
+    "command": "ps aux",
+    "title": "Process status",
+    "description": "Report a snapshot of the current processes"
+  },
+  {
+    "id": "kill",
+    "command": "kill <pid>",
+    "title": "Kill process",
+    "description": "Terminate a process"
+  },
+  {
+    "id": "tar_compress",
+    "command": "tar -czvf archive.tar.gz <dir>",
+    "title": "Compress tar",
+    "description": "Create a compressed tarball"
+  },
+  {
+    "id": "tar_extract",
+    "command": "tar -xzvf archive.tar.gz",
+    "title": "Extract tar",
+    "description": "Extract a compressed tarball"
+  }
 ]
