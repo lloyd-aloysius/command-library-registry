@@ -1,5 +1,0 @@
-[
-  { "id": "docker_ps", "command": "docker ps", "title": "List running containers", "description": "Shows all running containers" },
-  { "id": "docker_images", "command": "docker images", "title": "List images", "description": "Shows all local docker images" },
-  { "id": "docker_compose_up", "command": "docker compose up -d", "title": "Compose Up", "description": "Starts services in detached mode" }
-]
