@@ -1,0 +1,20 @@
+[
+  {
+    "id": "make_run",
+    "command": "make",
+    "title": "Run",
+    "description": "Run the default target"
+  },
+  {
+    "id": "make_target",
+    "command": "make <target>",
+    "title": "Run Target",
+    "description": "Run a specific target"
+  },
+  {
+    "id": "make_clean",
+    "command": "make clean",
+    "title": "Clean",
+    "description": "Run the clean target"
+  }
+]

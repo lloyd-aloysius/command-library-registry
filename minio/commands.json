@@ -1,0 +1,26 @@
+[
+  {
+    "id": "minio_server",
+    "command": "minio server /data",
+    "title": "Start Server",
+    "description": "Start MinIO server"
+  },
+  {
+    "id": "mc_alias_set",
+    "command": "mc alias set <alias> <url> <accessKey> <secretKey>",
+    "title": "Set Alias",
+    "description": "Set a new alias in mc"
+  },
+  {
+    "id": "mc_ls",
+    "command": "mc ls <alias>",
+    "title": "List",
+    "description": "List files and buckets"
+  },
+  {
+    "id": "mc_cp",
+    "command": "mc cp <source> <dest>",
+    "title": "Copy",
+    "description": "Copy files"
+  }
+]

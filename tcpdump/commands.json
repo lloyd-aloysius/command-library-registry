@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tcpdump_capture",
+    "command": "sudo tcpdump -i <interface>",
+    "title": "Capture",
+    "description": "Capture packets on interface"
+  },
+  {
+    "id": "tcpdump_write",
+    "command": "sudo tcpdump -w <file.pcap>",
+    "title": "Write to File",
+    "description": "Write captured packets to file"
+  },
+  {
+    "id": "tcpdump_read",
+    "command": "tcpdump -r <file.pcap>",
+    "title": "Read File",
+    "description": "Read captured packets from file"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mysql_connect",
+    "command": "mysql -u <user> -p",
+    "title": "Connect",
+    "description": "Connect to MySQL server"
+  },
+  {
+    "id": "mysql_dump",
+    "command": "mysqldump -u <user> -p <db_name> > dump.sql",
+    "title": "Backup DB",
+    "description": "Dump a database to a file"
+  },
+  {
+    "id": "mysql_import",
+    "command": "mysql -u <user> -p <db_name> < dump.sql",
+    "title": "Import DB",
+    "description": "Import a database from a file"
+  }
+]

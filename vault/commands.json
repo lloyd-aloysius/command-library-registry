@@ -1,0 +1,26 @@
+[
+  {
+    "id": "vault_server",
+    "command": "vault server -dev",
+    "title": "Dev Server",
+    "description": "Start Vault in dev mode"
+  },
+  {
+    "id": "vault_status",
+    "command": "vault status",
+    "title": "Status",
+    "description": "Print seal and HA status"
+  },
+  {
+    "id": "vault_kv_put",
+    "command": "vault kv put secret/hello foo=world",
+    "title": "Put Secret",
+    "description": "Write data to the KV store"
+  },
+  {
+    "id": "vault_kv_get",
+    "command": "vault kv get secret/hello",
+    "title": "Get Secret",
+    "description": "Read data from the KV store"
+  }
+]

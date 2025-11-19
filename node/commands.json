@@ -1,0 +1,14 @@
+[
+  {
+    "id": "node_run",
+    "command": "node <file.js>",
+    "title": "Run file",
+    "description": "Execute a JavaScript file"
+  },
+  {
+    "id": "node_repl",
+    "command": "node",
+    "title": "REPL",
+    "description": "Start the Node.js REPL"
+  }
+]

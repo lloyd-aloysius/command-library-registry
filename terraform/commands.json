@@ -1,0 +1,38 @@
+[
+  {
+    "id": "terraform_init",
+    "command": "terraform init",
+    "title": "Initialize",
+    "description": "Initialize a Terraform working directory"
+  },
+  {
+    "id": "terraform_plan",
+    "command": "terraform plan",
+    "title": "Plan",
+    "description": "Generate and show an execution plan"
+  },
+  {
+    "id": "terraform_apply",
+    "command": "terraform apply",
+    "title": "Apply",
+    "description": "Builds or changes infrastructure"
+  },
+  {
+    "id": "terraform_destroy",
+    "command": "terraform destroy",
+    "title": "Destroy",
+    "description": "Destroy Terraform-managed infrastructure"
+  },
+  {
+    "id": "terraform_validate",
+    "command": "terraform validate",
+    "title": "Validate",
+    "description": "Validates the configuration files"
+  },
+  {
+    "id": "terraform_fmt",
+    "command": "terraform fmt",
+    "title": "Format",
+    "description": "Rewrites config files to canonical format"
+  }
+]

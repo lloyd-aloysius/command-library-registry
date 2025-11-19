@@ -1,0 +1,20 @@
+[
+  {
+    "id": "redis_cli",
+    "command": "redis-cli",
+    "title": "CLI",
+    "description": "Start the Redis CLI"
+  },
+  {
+    "id": "redis_ping",
+    "command": "redis-cli ping",
+    "title": "Ping",
+    "description": "Ping the server"
+  },
+  {
+    "id": "redis_flushall",
+    "command": "redis-cli flushall",
+    "title": "Flush All",
+    "description": "Remove all keys from all databases"
+  }
+]

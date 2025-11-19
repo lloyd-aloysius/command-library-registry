@@ -1,0 +1,26 @@
+[
+  {
+    "id": "curl_get",
+    "command": "curl <url>",
+    "title": "GET request",
+    "description": "Send a GET request"
+  },
+  {
+    "id": "curl_post",
+    "command": "curl -X POST -d \"data\" <url>",
+    "title": "POST request",
+    "description": "Send a POST request"
+  },
+  {
+    "id": "curl_header",
+    "command": "curl -I <url>",
+    "title": "Fetch headers",
+    "description": "Fetch the HTTP-header only"
+  },
+  {
+    "id": "curl_download",
+    "command": "curl -O <url>",
+    "title": "Download file",
+    "description": "Download a file and save it with the same name"
+  }
+]

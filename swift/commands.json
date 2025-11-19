@@ -1,0 +1,26 @@
+[
+  {
+    "id": "swift_run",
+    "command": "swift run",
+    "title": "Run",
+    "description": "Build and run the executable"
+  },
+  {
+    "id": "swift_build",
+    "command": "swift build",
+    "title": "Build",
+    "description": "Build the package"
+  },
+  {
+    "id": "swift_test",
+    "command": "swift test",
+    "title": "Test",
+    "description": "Run tests"
+  },
+  {
+    "id": "swift_package_init",
+    "command": "swift package init --type executable",
+    "title": "Init Package",
+    "description": "Initialize a new package"
+  }
+]

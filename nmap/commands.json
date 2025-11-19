@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nmap_scan",
+    "command": "nmap <ip>",
+    "title": "Scan IP",
+    "description": "Scan a target IP address"
+  },
+  {
+    "id": "nmap_port_scan",
+    "command": "nmap -p <port> <ip>",
+    "title": "Port scan",
+    "description": "Scan specific port"
+  },
+  {
+    "id": "nmap_os",
+    "command": "nmap -O <ip>",
+    "title": "OS Detection",
+    "description": "Enable OS detection"
+  }
+]

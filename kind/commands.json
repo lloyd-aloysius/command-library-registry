@@ -1,0 +1,20 @@
+[
+  {
+    "id": "kind_create_cluster",
+    "command": "kind create cluster",
+    "title": "Create Cluster",
+    "description": "Create a local Kubernetes cluster"
+  },
+  {
+    "id": "kind_delete_cluster",
+    "command": "kind delete cluster",
+    "title": "Delete Cluster",
+    "description": "Delete the cluster"
+  },
+  {
+    "id": "kind_get_clusters",
+    "command": "kind get clusters",
+    "title": "Get Clusters",
+    "description": "List clusters"
+  }
+]

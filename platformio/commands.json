@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pio_run",
+    "command": "pio run",
+    "title": "Build",
+    "description": "Process project environments"
+  },
+  {
+    "id": "pio_upload",
+    "command": "pio run --target upload",
+    "title": "Upload",
+    "description": "Upload firmware"
+  },
+  {
+    "id": "pio_device_list",
+    "command": "pio device list",
+    "title": "List Devices",
+    "description": "List serial ports"
+  }
+]

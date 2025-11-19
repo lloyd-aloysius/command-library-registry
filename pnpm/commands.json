@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pnpm_install",
+    "command": "pnpm install",
+    "title": "Install dependencies",
+    "description": "Install dependencies"
+  },
+  {
+    "id": "pnpm_add",
+    "command": "pnpm add <package>",
+    "title": "Add package",
+    "description": "Add a package"
+  },
+  {
+    "id": "pnpm_start",
+    "command": "pnpm start",
+    "title": "Start",
+    "description": "Run the start script"
+  },
+  {
+    "id": "pnpm_build",
+    "command": "pnpm build",
+    "title": "Build",
+    "description": "Run the build script"
+  }
+]

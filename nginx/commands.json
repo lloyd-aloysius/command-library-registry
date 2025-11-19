@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nginx_start",
+    "command": "sudo nginx",
+    "title": "Start",
+    "description": "Start Nginx"
+  },
+  {
+    "id": "nginx_stop",
+    "command": "sudo nginx -s stop",
+    "title": "Stop",
+    "description": "Stop Nginx"
+  },
+  {
+    "id": "nginx_reload",
+    "command": "sudo nginx -s reload",
+    "title": "Reload",
+    "description": "Reload configuration"
+  },
+  {
+    "id": "nginx_test",
+    "command": "sudo nginx -t",
+    "title": "Test Config",
+    "description": "Test configuration file"
+  }
+]

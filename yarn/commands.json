@@ -1,0 +1,26 @@
+[
+  {
+    "id": "yarn_install",
+    "command": "yarn install",
+    "title": "Install dependencies",
+    "description": "Install dependencies"
+  },
+  {
+    "id": "yarn_add",
+    "command": "yarn add <package>",
+    "title": "Add package",
+    "description": "Add a package to use in your current package"
+  },
+  {
+    "id": "yarn_start",
+    "command": "yarn start",
+    "title": "Start",
+    "description": "Run the start script"
+  },
+  {
+    "id": "yarn_build",
+    "command": "yarn build",
+    "title": "Build",
+    "description": "Run the build script"
+  }
+]

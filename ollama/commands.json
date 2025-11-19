@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ollama_serve",
+    "command": "ollama serve",
+    "title": "Serve",
+    "description": "Start the Ollama server"
+  },
+  {
+    "id": "ollama_run",
+    "command": "ollama run <model>",
+    "title": "Run Model",
+    "description": "Run a model"
+  },
+  {
+    "id": "ollama_pull",
+    "command": "ollama pull <model>",
+    "title": "Pull Model",
+    "description": "Pull a model from the registry"
+  },
+  {
+    "id": "ollama_list",
+    "command": "ollama list",
+    "title": "List Models",
+    "description": "List available models"
+  },
+  {
+    "id": "ollama_rm",
+    "command": "ollama rm <model>",
+    "title": "Remove Model",
+    "description": "Remove a model"
+  }
+]

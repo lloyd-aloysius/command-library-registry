@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rclone_config",
+    "command": "rclone config",
+    "title": "Config",
+    "description": "Enter interactive configuration"
+  },
+  {
+    "id": "rclone_ls",
+    "command": "rclone ls <remote>:",
+    "title": "List Files",
+    "description": "List files in a remote"
+  },
+  {
+    "id": "rclone_copy",
+    "command": "rclone copy <source> <dest>",
+    "title": "Copy",
+    "description": "Copy files from source to dest"
+  },
+  {
+    "id": "rclone_sync",
+    "command": "rclone sync <source> <dest>",
+    "title": "Sync",
+    "description": "Make source and dest identical"
+  },
+  {
+    "id": "rclone_mount",
+    "command": "rclone mount <remote>: <mountpoint>",
+    "title": "Mount",
+    "description": "Mount remote as a file system"
+  }
+]

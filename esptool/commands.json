@@ -1,0 +1,26 @@
+[
+  {
+    "id": "esptool_chip_id",
+    "command": "esptool.py chip_id",
+    "title": "Chip ID",
+    "description": "Read Chip ID"
+  },
+  {
+    "id": "esptool_flash_id",
+    "command": "esptool.py flash_id",
+    "title": "Flash ID",
+    "description": "Read SPI Flash ID"
+  },
+  {
+    "id": "esptool_erase",
+    "command": "esptool.py erase_flash",
+    "title": "Erase Flash",
+    "description": "Erase the entire flash"
+  },
+  {
+    "id": "esptool_write",
+    "command": "esptool.py write_flash 0x1000 <file.bin>",
+    "title": "Write Flash",
+    "description": "Write binary to flash"
+  }
+]

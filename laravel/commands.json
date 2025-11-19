@@ -1,0 +1,32 @@
+[
+  {
+    "id": "artisan_serve",
+    "command": "php artisan serve",
+    "title": "Serve",
+    "description": "Serve the application on the PHP development server"
+  },
+  {
+    "id": "artisan_migrate",
+    "command": "php artisan migrate",
+    "title": "Migrate",
+    "description": "Run the database migrations"
+  },
+  {
+    "id": "artisan_make_controller",
+    "command": "php artisan make:controller <Name>",
+    "title": "Make Controller",
+    "description": "Create a new controller class"
+  },
+  {
+    "id": "artisan_make_model",
+    "command": "php artisan make:model <Name> -m",
+    "title": "Make Model",
+    "description": "Create a new Eloquent model class with migration"
+  },
+  {
+    "id": "artisan_route_list",
+    "command": "php artisan route:list",
+    "title": "List Routes",
+    "description": "List all registered routes"
+  }
+]

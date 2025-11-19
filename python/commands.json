@@ -1,0 +1,44 @@
+[
+  {
+    "id": "python_run",
+    "command": "python <file.py>",
+    "title": "Run file",
+    "description": "Execute a Python file"
+  },
+  {
+    "id": "pip_install",
+    "command": "pip install <package>",
+    "title": "Install package",
+    "description": "Install a package using pip"
+  },
+  {
+    "id": "pip_install_req",
+    "command": "pip install -r requirements.txt",
+    "title": "Install requirements",
+    "description": "Install packages from requirements.txt"
+  },
+  {
+    "id": "pip_list",
+    "command": "pip list",
+    "title": "List packages",
+    "description": "List installed packages"
+  },
+  {
+    "id": "pip_freeze",
+    "command": "pip freeze > requirements.txt",
+    "title": "Freeze requirements",
+    "description": "Output installed packages in requirements format"
+  },
+  {
+    "id": "venv_create",
+    "command": "python -m venv venv",
+    "title": "Create venv",
+    "description": "Create a virtual environment"
+  },
+  {
+    "id": "venv_activate",
+    "command": "source venv/bin/activate",
+    "title": "Activate venv",
+    "description": "Activate the virtual environment (Mac/Linux)"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pipx_install",
+    "command": "pipx install <package>",
+    "title": "Install",
+    "description": "Install a package in an isolated environment"
+  },
+  {
+    "id": "pipx_list",
+    "command": "pipx list",
+    "title": "List",
+    "description": "List installed packages"
+  },
+  {
+    "id": "pipx_run",
+    "command": "pipx run <package>",
+    "title": "Run",
+    "description": "Run a package without installing it permanently"
+  }
+]

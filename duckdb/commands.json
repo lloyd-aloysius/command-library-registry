@@ -1,0 +1,20 @@
+[
+  {
+    "id": "duckdb_run",
+    "command": "duckdb",
+    "title": "Run CLI",
+    "description": "Start DuckDB CLI"
+  },
+  {
+    "id": "duckdb_open",
+    "command": "duckdb <file.db>",
+    "title": "Open DB",
+    "description": "Open a DuckDB database"
+  },
+  {
+    "id": "duckdb_query",
+    "command": "duckdb -c \"<query>\"",
+    "title": "Run Query",
+    "description": "Run a SQL query"
+  }
+]

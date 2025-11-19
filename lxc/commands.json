@@ -1,0 +1,20 @@
+[
+  {
+    "id": "lxc_list",
+    "command": "lxc list",
+    "title": "List Containers",
+    "description": "List LXC containers"
+  },
+  {
+    "id": "lxc_launch",
+    "command": "lxc launch <image> <name>",
+    "title": "Launch",
+    "description": "Launch a new container"
+  },
+  {
+    "id": "lxc_exec",
+    "command": "lxc exec <name> -- /bin/bash",
+    "title": "Exec",
+    "description": "Execute a command in a container"
+  }
+]

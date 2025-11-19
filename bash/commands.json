@@ -1,0 +1,26 @@
+[
+  {
+    "id": "chmod",
+    "command": "chmod +x <file>",
+    "title": "Make executable",
+    "description": "Make a file executable"
+  },
+  {
+    "id": "chown",
+    "command": "chown <user>:<group> <file>",
+    "title": "Change owner",
+    "description": "Change file owner and group"
+  },
+  {
+    "id": "export",
+    "command": "export VAR=value",
+    "title": "Export variable",
+    "description": "Set an environment variable"
+  },
+  {
+    "id": "alias",
+    "command": "alias name='command'",
+    "title": "Create alias",
+    "description": "Create a command alias"
+  }
+]

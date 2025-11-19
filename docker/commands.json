@@ -1,0 +1,74 @@
+[
+  {
+    "id": "docker_ps",
+    "command": "docker ps",
+    "title": "List containers",
+    "description": "List running containers"
+  },
+  {
+    "id": "docker_ps_a",
+    "command": "docker ps -a",
+    "title": "List all containers",
+    "description": "List all containers including stopped ones"
+  },
+  {
+    "id": "docker_images",
+    "command": "docker images",
+    "title": "List images",
+    "description": "List available images"
+  },
+  {
+    "id": "docker_run",
+    "command": "docker run -it <image> /bin/bash",
+    "title": "Run interactive",
+    "description": "Run a command in a new container interactively"
+  },
+  {
+    "id": "docker_stop",
+    "command": "docker stop <container>",
+    "title": "Stop container",
+    "description": "Stop one or more running containers"
+  },
+  {
+    "id": "docker_rm",
+    "command": "docker rm <container>",
+    "title": "Remove container",
+    "description": "Remove one or more containers"
+  },
+  {
+    "id": "docker_rmi",
+    "command": "docker rmi <image>",
+    "title": "Remove image",
+    "description": "Remove one or more images"
+  },
+  {
+    "id": "docker_build",
+    "command": "docker build -t <tag> .",
+    "title": "Build image",
+    "description": "Build an image from a Dockerfile"
+  },
+  {
+    "id": "docker_exec",
+    "command": "docker exec -it <container> /bin/bash",
+    "title": "Exec bash",
+    "description": "Run a command in a running container"
+  },
+  {
+    "id": "docker_logs",
+    "command": "docker logs -f <container>",
+    "title": "View logs",
+    "description": "Fetch the logs of a container"
+  },
+  {
+    "id": "docker_compose_up",
+    "command": "docker-compose up -d",
+    "title": "Compose Up",
+    "description": "Builds, (re)creates, starts, and attaches to containers for a service"
+  },
+  {
+    "id": "docker_compose_down",
+    "command": "docker-compose down",
+    "title": "Compose Down",
+    "description": "Stop and remove containers, networks, images, and volumes"
+  }
+]

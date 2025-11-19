@@ -1,0 +1,20 @@
+[
+  {
+    "id": "openssl_genrsa",
+    "command": "openssl genrsa -out key.pem 2048",
+    "title": "Gen RSA Key",
+    "description": "Generate a 2048-bit RSA private key"
+  },
+  {
+    "id": "openssl_req",
+    "command": "openssl req -new -key key.pem -out csr.pem",
+    "title": "Gen CSR",
+    "description": "Generate a Certificate Signing Request"
+  },
+  {
+    "id": "openssl_x509",
+    "command": "openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem",
+    "title": "Gen Cert",
+    "description": "Generate a self-signed certificate"
+  }
+]

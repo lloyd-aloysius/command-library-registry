@@ -1,0 +1,14 @@
+[
+  {
+    "id": "candump",
+    "command": "candump <interface>",
+    "title": "Dump",
+    "description": "Display CAN messages"
+  },
+  {
+    "id": "cansend",
+    "command": "cansend <interface> <can_id>#<data>",
+    "title": "Send",
+    "description": "Send a CAN frame"
+  }
+]
