@@ -1,4 +1,0 @@
-[
-  { "id": "kube_get_pods", "command": "kubectl get pods", "title": "Get Pods", "description": "List all pods in namespace" },
-  { "id": "kube_logs", "command": "kubectl logs <pod>", "title": "View logs", "description": "Print container logs" }
-]
