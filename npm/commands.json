@@ -1,4 +1,0 @@
-[
-  { "id": "npm_install", "command": "npm install", "title": "Install packages", "description": "Install all dependencies" },
-  { "id": "npm_run_dev", "command": "npm run dev", "title": "Run dev server", "description": "Start development environment" }
-]
