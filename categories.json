@@ -1,154 +1,812 @@
 [
-  { "id": "docker", "name": "Docker", "iconName": "shippingbox" },
-  { "id": "git", "name": "Git", "iconName": "arrow.triangle.branch" },
-  { "id": "node", "name": "Node / NPM", "iconName": "square.stack.3d.up" },
-  { "id": "brew", "name": "Homebrew", "iconName": "mug" },
-  { "id": "kubernetes", "name": "Kubernetes", "iconName": "square.grid.3x3" },
-  { "id": "python", "name": "Python", "iconName": "chevron.left.forwardslash.chevron.right" },
-  { "id": "system", "name": "System", "iconName": "terminal" },
-
-  { "id": "laravel", "name": "Laravel", "iconName": "curlybraces" },
-  { "id": "php", "name": "PHP", "iconName": "chevron.left.forwardslash.chevron.right" },
-  { "id": "mysql", "name": "MySQL", "iconName": "database" },
-  { "id": "sqlite", "name": "SQLite", "iconName": "tablecells" },
-  { "id": "restapi", "name": "REST APIs", "iconName": "network" },
-
-  { "id": "huggingface", "name": "Hugging Face", "iconName": "face.smiling" },
-  { "id": "openai", "name": "OpenAI", "iconName": "sparkles" },
-  { "id": "gemini", "name": "Gemini API", "iconName": "sparkle.magnifyingglass" },
-  { "id": "pytorch", "name": "PyTorch", "iconName": "flame" },
-  { "id": "tensorflow", "name": "TensorFlow", "iconName": "square.grid.2x2" },
-  { "id": "mcp", "name": "Model Context Protocol", "iconName": "link" },
-  { "id": "crew", "name": "CrewAI / Agents", "iconName": "person.3.sequence" },
-  { "id": "llmops", "name": "LLM Ops", "iconName": "gearshape" },
-  { "id": "abm", "name": "Agent-Based Models", "iconName": "hexagon" },
-  { "id": "langchain", "name": "LangChain", "iconName": "link.badge.plus" },
-  { "id": "litellm", "name": "LiteLLM", "iconName": "bolt.horizontal" },
-  { "id": "faiss", "name": "FAISS Vector DB", "iconName": "square.stack.3d.forward.dottedline" },
-  { "id": "chroma", "name": "ChromaDB", "iconName": "circle.hexagongrid" },
-  { "id": "onnx", "name": "ONNX Runtime", "iconName": "cube.transparent" },
-  { "id": "ollama", "name": "Ollama", "iconName": "brain" },
-  { "id": "openrouter", "name": "OpenRouter", "iconName": "arrow.triangle.branch" },
-
-  { "id": "n8n", "name": "n8n Automation", "iconName": "arrow.clockwise.icloud" },
-  { "id": "playwright", "name": "Playwright", "iconName": "theatermasks" },
-  { "id": "browserless", "name": "Browserless", "iconName": "globe" },
-  { "id": "serpapi", "name": "SERP API", "iconName": "magnifyingglass" },
-  { "id": "scrapy", "name": "Scrapy", "iconName": "ant" },
-  { "id": "htmlparser", "name": "AI HTML Parsing", "iconName": "doc.text.magnifyingglass" },
-  { "id": "sheetsapi", "name": "Google Sheets API", "iconName": "square.and.pencil" },
-  { "id": "pdfminer", "name": "PDF Parsing", "iconName": "doc.richtext" },
-  { "id": "pypdf", "name": "pypdf", "iconName": "doc" },
-
-  { "id": "html", "name": "HTML", "iconName": "chevron.left.slash.chevron.right" },
-  { "id": "css", "name": "CSS", "iconName": "paintbrush" },
-  { "id": "react", "name": "React", "iconName": "rays" },
-  { "id": "tradingview", "name": "TradingView Charting", "iconName": "chart.xyaxis.line" },
-  { "id": "flasksocket", "name": "Flask + Socket.IO", "iconName": "bolt.horizontal" },
-
-  { "id": "proxmox", "name": "Proxmox", "iconName": "server.rack" },
-  { "id": "vm", "name": "Virtual Machines", "iconName": "desktopcomputer" },
-  { "id": "lxc", "name": "LXC Containers", "iconName": "cube" },
-  { "id": "tailscale", "name": "Tailscale", "iconName": "shield" },
-  { "id": "tailscale_funnel", "name": "Tailscale Funnel", "iconName": "arrow.up.forward.internet" },
-  { "id": "cloudflare", "name": "Cloudflare Tunnels", "iconName": "lock.shield" },
-  { "id": "rclone", "name": "rclone", "iconName": "arrow.triangle.2.circlepath" },
-  { "id": "ssh", "name": "SSH", "iconName": "key" },
-  { "id": "nginx", "name": "Nginx", "iconName": "leaf" },
-  { "id": "caddy", "name": "Caddy Server", "iconName": "globe.badge.checkmark" },
-  { "id": "traefik", "name": "Traefik", "iconName": "tornado" },
-  { "id": "consul", "name": "HashiCorp Consul", "iconName": "circle.grid.cross" },
-  { "id": "nomad", "name": "Nomad", "iconName": "square.stack.3d.up" },
-  { "id": "minio", "name": "MinIO (S3)", "iconName": "externaldrive" },
-  { "id": "redis", "name": "Redis", "iconName": "memorychip" },
-  { "id": "ansible", "name": "Ansible", "iconName": "a.circle" },
-  { "id": "terraform", "name": "Terraform", "iconName": "square.2.layers.3d.top.filled" },
-  { "id": "make", "name": "Make", "iconName": "hammer" },
-  { "id": "cmake", "name": "CMake", "iconName": "cube.split.2x2" },
-  { "id": "pipx", "name": "pipx", "iconName": "shippingbox.circle" },
-  { "id": "pnpm", "name": "PNPM", "iconName": "shippingbox.and.arrow.backward" },
-  { "id": "yarn", "name": "Yarn", "iconName": "scissors" },
-  { "id": "k3s", "name": "k3s", "iconName": "square.grid.3x2" },
-  { "id": "kind", "name": "kind (K8s-in-Docker)", "iconName": "shippingbox.fill" },
-  { "id": "podman", "name": "Podman", "iconName": "bolt.horizontal.circle" },
-  { "id": "buildx", "name": "Docker Buildx", "iconName": "hammer.circle" },
-
-  { "id": "prometheus", "name": "Prometheus", "iconName": "flame.circle" },
-  { "id": "grafana", "name": "Grafana", "iconName": "chart.bar.doc.horizontal" },
-  { "id": "node_exporter", "name": "Node Exporter", "iconName": "cpu" },
-  { "id": "loki", "name": "Loki Logs", "iconName": "text.append" },
-  { "id": "uptimekuma", "name": "Uptime Kuma", "iconName": "clock.arrow.circlepath" },
-
-  { "id": "curl", "name": "curl", "iconName": "waveform" },
-  { "id": "httpie", "name": "HTTPie", "iconName": "bubble.left" },
-  { "id": "nmap", "name": "nmap", "iconName": "sensor" },
-  { "id": "wireshark", "name": "Wireshark", "iconName": "tortoise" },
-  { "id": "tcpdump", "name": "tcpdump", "iconName": "waveform.path" },
-
-  { "id": "awscli", "name": "AWS CLI", "iconName": "cloud" },
-  { "id": "gcloud", "name": "Google Cloud SDK", "iconName": "cloud.sun" },
-  { "id": "azurecli", "name": "Azure CLI", "iconName": "cloud.fog" },
-
-  { "id": "pandas", "name": "Pandas", "iconName": "tablecells" },
-  { "id": "numpy", "name": "NumPy", "iconName": "square.grid.3x3" },
-  { "id": "duckdb", "name": "DuckDB", "iconName": "rectangle.stack" },
-  { "id": "polars", "name": "Polars", "iconName": "snowflake" },
-  { "id": "parquet", "name": "Parquet Tools", "iconName": "archivebox" },
-
-  { "id": "swift", "name": "Swift", "iconName": "swift" },
-  { "id": "swiftui", "name": "SwiftUI", "iconName": "rectangle.3.group" },
-  { "id": "xcodebuild", "name": "xcodebuild", "iconName": "hammer" },
-  { "id": "xcrun", "name": "xcrun", "iconName": "wrench" },
-  { "id": "sf_symbols", "name": "SF Symbols", "iconName": "square.grid.3x3.fill" },
-  { "id": "mas_cli", "name": "mas-cli", "iconName": "cart" },
-
-  { "id": "openssl", "name": "OpenSSL", "iconName": "lock.open" },
-  { "id": "gpg", "name": "GPG", "iconName": "key.fill" },
-  { "id": "age", "name": "age Encryption", "iconName": "lock.rectangle" },
-  { "id": "vault", "name": "HashiCorp Vault", "iconName": "lock.shield" },
-
-  { "id": "ubiquiti", "name": "Ubiquiti", "iconName": "wifi" },
-  { "id": "omada", "name": "TP-Link Omada", "iconName": "wave.3.left" },
-  { "id": "glnet", "name": "GL.iNet", "iconName": "wifi.circle" },
-  { "id": "mdns", "name": "mDNS Reflector", "iconName": "dot.radiowaves.up.forward" },
-  { "id": "vlans", "name": "VLANs", "iconName": "rectangle.3.group" },
-  { "id": "adguard", "name": "AdGuard Home", "iconName": "shield.lefthalf.filled" },
-  { "id": "homeassistant", "name": "Home Assistant", "iconName": "house" },
-  { "id": "samba", "name": "Samba / File Share", "iconName": "folder" },
-  { "id": "portainer", "name": "Portainer", "iconName": "shippingbox.fill" },
-
-  { "id": "esp32", "name": "ESP32", "iconName": "cpu" },
-  { "id": "esp8266", "name": "ESP8266", "iconName": "cpu" },
-  { "id": "esp32c6", "name": "ESP32-C6", "iconName": "cpu" },
-  { "id": "arduino", "name": "Arduino", "iconName": "bolt" },
-  { "id": "platformio", "name": "PlatformIO", "iconName": "building" },
-  { "id": "esptool", "name": "esptool", "iconName": "arrow.down.circle" },
-  { "id": "mqtt", "name": "MQTT", "iconName": "bubble.left.and.bubble.right" },
-  { "id": "zigbee2mqtt", "name": "Zigbee2MQTT", "iconName": "dot.radiowaves.up.forward" },
-  { "id": "esphome", "name": "ESPHome", "iconName": "house.fill" },
-  { "id": "canbus", "name": "CAN Bus Tools", "iconName": "car.fill" },
-  { "id": "logic_analyzer", "name": "Logic Analyzer", "iconName": "waveform.path.ecg" },
-  { "id": "blehid", "name": "Bluetooth HID", "iconName": "wave.3.right" },
-  { "id": "matter", "name": "Matter / HomeKit", "iconName": "house.circle" },
-  { "id": "smartplug", "name": "Smart Plug Dev", "iconName": "powerplug" },
-  { "id": "obd", "name": "OBD Device Dev", "iconName": "car" },
-  { "id": "sip", "name": "SIP Intercom", "iconName": "phone" },
-  { "id": "walkietalkie", "name": "Walkie-Talkie System", "iconName": "mic" },
-
-  { "id": "tradingbot", "name": "Trading Bot Architecture", "iconName": "chart.line.uptrend.xyaxis" },
-  { "id": "futures", "name": "Futures Trading App", "iconName": "chart.pie" },
-  { "id": "indicator", "name": "Triple Stochastic Indicator", "iconName": "waveform.path.ecg" },
-
-  { "id": "cleanshot", "name": "Screenshot Tools", "iconName": "camera" },
-  { "id": "branding", "name": "Branding / UI", "iconName": "paintpalette" },
-  { "id": "portfolio", "name": "Portfolio Dev", "iconName": "person.crop.rectangle" },
-
-  { "id": "solarcalc", "name": "Solar ROI Analysis", "iconName": "sun.max" },
-  { "id": "nasbuild", "name": "NAS Build (EPYC)", "iconName": "externaldrive" },
-  { "id": "powerstrip", "name": "Smart Power Strip", "iconName": "powerplug" },
-
-  { "id": "linux", "name": "Linux", "iconName": "laptopcomputer" },
-  { "id": "bash", "name": "Bash", "iconName": "terminal" },
-  { "id": "json", "name": "JSON", "iconName": "curlybraces.square" },
-  { "id": "api", "name": "API Integration", "iconName": "point.3.connected.trianglepath" }
+  {
+    "id": "docker",
+    "name": "Docker",
+    "iconName": "shippingbox",
+    "available": true
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "iconName": "arrow.triangle.branch",
+    "available": true
+  },
+  {
+    "id": "node",
+    "name": "Node / NPM",
+    "iconName": "square.stack.3d.up",
+    "available": true
+  },
+  {
+    "id": "brew",
+    "name": "Homebrew",
+    "iconName": "mug",
+    "available": true
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "iconName": "square.grid.3x3",
+    "available": true
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "iconName": "chevron.left.forwardslash.chevron.right",
+    "available": true
+  },
+  {
+    "id": "system",
+    "name": "System",
+    "iconName": "terminal",
+    "available": true
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "iconName": "curlybraces",
+    "available": true
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "iconName": "chevron.left.forwardslash.chevron.right",
+    "available": true
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "iconName": "database",
+    "available": true
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "iconName": "tablecells",
+    "available": true
+  },
+  {
+    "id": "restapi",
+    "name": "REST APIs",
+    "iconName": "network",
+    "available": false
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "iconName": "face.smiling",
+    "available": true
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "iconName": "sparkles",
+    "available": false
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini API",
+    "iconName": "sparkle.magnifyingglass",
+    "available": false
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "iconName": "flame",
+    "available": false
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "iconName": "square.grid.2x2",
+    "available": false
+  },
+  {
+    "id": "mcp",
+    "name": "Model Context Protocol",
+    "iconName": "link",
+    "available": false
+  },
+  {
+    "id": "crew",
+    "name": "CrewAI / Agents",
+    "iconName": "person.3.sequence",
+    "available": false
+  },
+  {
+    "id": "llmops",
+    "name": "LLM Ops",
+    "iconName": "gearshape",
+    "available": false
+  },
+  {
+    "id": "abm",
+    "name": "Agent-Based Models",
+    "iconName": "hexagon",
+    "available": false
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "iconName": "link.badge.plus",
+    "available": false
+  },
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "iconName": "bolt.horizontal",
+    "available": false
+  },
+  {
+    "id": "faiss",
+    "name": "FAISS Vector DB",
+    "iconName": "square.stack.3d.forward.dottedline",
+    "available": false
+  },
+  {
+    "id": "chroma",
+    "name": "ChromaDB",
+    "iconName": "circle.hexagongrid",
+    "available": false
+  },
+  {
+    "id": "onnx",
+    "name": "ONNX Runtime",
+    "iconName": "cube.transparent",
+    "available": false
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "iconName": "brain",
+    "available": true
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "iconName": "arrow.triangle.branch",
+    "available": false
+  },
+  {
+    "id": "n8n",
+    "name": "n8n Automation",
+    "iconName": "arrow.clockwise.icloud",
+    "available": true
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "iconName": "theatermasks",
+    "available": true
+  },
+  {
+    "id": "browserless",
+    "name": "Browserless",
+    "iconName": "globe",
+    "available": false
+  },
+  {
+    "id": "serpapi",
+    "name": "SERP API",
+    "iconName": "magnifyingglass",
+    "available": false
+  },
+  {
+    "id": "scrapy",
+    "name": "Scrapy",
+    "iconName": "ant",
+    "available": true
+  },
+  {
+    "id": "htmlparser",
+    "name": "AI HTML Parsing",
+    "iconName": "doc.text.magnifyingglass",
+    "available": false
+  },
+  {
+    "id": "sheetsapi",
+    "name": "Google Sheets API",
+    "iconName": "square.and.pencil",
+    "available": false
+  },
+  {
+    "id": "pdfminer",
+    "name": "PDF Parsing",
+    "iconName": "doc.richtext",
+    "available": false
+  },
+  {
+    "id": "pypdf",
+    "name": "pypdf",
+    "iconName": "doc",
+    "available": false
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "iconName": "chevron.left.slash.chevron.right",
+    "available": false
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "iconName": "paintbrush",
+    "available": false
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "iconName": "rays",
+    "available": true
+  },
+  {
+    "id": "tradingview",
+    "name": "TradingView Charting",
+    "iconName": "chart.xyaxis.line",
+    "available": false
+  },
+  {
+    "id": "flasksocket",
+    "name": "Flask + Socket.IO",
+    "iconName": "bolt.horizontal",
+    "available": false
+  },
+  {
+    "id": "proxmox",
+    "name": "Proxmox",
+    "iconName": "server.rack",
+    "available": false
+  },
+  {
+    "id": "vm",
+    "name": "Virtual Machines",
+    "iconName": "desktopcomputer",
+    "available": false
+  },
+  {
+    "id": "lxc",
+    "name": "LXC Containers",
+    "iconName": "cube",
+    "available": true
+  },
+  {
+    "id": "tailscale",
+    "name": "Tailscale",
+    "iconName": "shield",
+    "available": true
+  },
+  {
+    "id": "tailscale_funnel",
+    "name": "Tailscale Funnel",
+    "iconName": "arrow.up.forward.internet",
+    "available": true
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare Tunnels",
+    "iconName": "lock.shield",
+    "available": true
+  },
+  {
+    "id": "rclone",
+    "name": "rclone",
+    "iconName": "arrow.triangle.2.circlepath",
+    "available": true
+  },
+  {
+    "id": "ssh",
+    "name": "SSH",
+    "iconName": "key",
+    "available": true
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx",
+    "iconName": "leaf",
+    "available": true
+  },
+  {
+    "id": "caddy",
+    "name": "Caddy Server",
+    "iconName": "globe.badge.checkmark",
+    "available": true
+  },
+  {
+    "id": "traefik",
+    "name": "Traefik",
+    "iconName": "tornado",
+    "available": false
+  },
+  {
+    "id": "consul",
+    "name": "HashiCorp Consul",
+    "iconName": "circle.grid.cross",
+    "available": false
+  },
+  {
+    "id": "nomad",
+    "name": "Nomad",
+    "iconName": "square.stack.3d.up",
+    "available": false
+  },
+  {
+    "id": "minio",
+    "name": "MinIO (S3)",
+    "iconName": "externaldrive",
+    "available": true
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "iconName": "memorychip",
+    "available": true
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "iconName": "a.circle",
+    "available": true
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "iconName": "square.2.layers.3d.top.filled",
+    "available": true
+  },
+  {
+    "id": "make",
+    "name": "Make",
+    "iconName": "hammer",
+    "available": true
+  },
+  {
+    "id": "cmake",
+    "name": "CMake",
+    "iconName": "cube.split.2x2",
+    "available": true
+  },
+  {
+    "id": "pipx",
+    "name": "pipx",
+    "iconName": "shippingbox.circle",
+    "available": true
+  },
+  {
+    "id": "pnpm",
+    "name": "PNPM",
+    "iconName": "shippingbox.and.arrow.backward",
+    "available": true
+  },
+  {
+    "id": "yarn",
+    "name": "Yarn",
+    "iconName": "scissors",
+    "available": true
+  },
+  {
+    "id": "k3s",
+    "name": "k3s",
+    "iconName": "square.grid.3x2",
+    "available": true
+  },
+  {
+    "id": "kind",
+    "name": "kind (K8s-in-Docker)",
+    "iconName": "shippingbox.fill",
+    "available": true
+  },
+  {
+    "id": "podman",
+    "name": "Podman",
+    "iconName": "bolt.horizontal.circle",
+    "available": true
+  },
+  {
+    "id": "buildx",
+    "name": "Docker Buildx",
+    "iconName": "hammer.circle",
+    "available": false
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "iconName": "flame.circle",
+    "available": false
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "iconName": "chart.bar.doc.horizontal",
+    "available": false
+  },
+  {
+    "id": "node_exporter",
+    "name": "Node Exporter",
+    "iconName": "cpu",
+    "available": false
+  },
+  {
+    "id": "loki",
+    "name": "Loki Logs",
+    "iconName": "text.append",
+    "available": false
+  },
+  {
+    "id": "uptimekuma",
+    "name": "Uptime Kuma",
+    "iconName": "clock.arrow.circlepath",
+    "available": false
+  },
+  {
+    "id": "curl",
+    "name": "curl",
+    "iconName": "waveform",
+    "available": true
+  },
+  {
+    "id": "httpie",
+    "name": "HTTPie",
+    "iconName": "bubble.left",
+    "available": true
+  },
+  {
+    "id": "nmap",
+    "name": "nmap",
+    "iconName": "sensor",
+    "available": true
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "iconName": "tortoise",
+    "available": true
+  },
+  {
+    "id": "tcpdump",
+    "name": "tcpdump",
+    "iconName": "waveform.path",
+    "available": true
+  },
+  {
+    "id": "awscli",
+    "name": "AWS CLI",
+    "iconName": "cloud",
+    "available": true
+  },
+  {
+    "id": "gcloud",
+    "name": "Google Cloud SDK",
+    "iconName": "cloud.sun",
+    "available": true
+  },
+  {
+    "id": "azurecli",
+    "name": "Azure CLI",
+    "iconName": "cloud.fog",
+    "available": true
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas",
+    "iconName": "tablecells",
+    "available": false
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "iconName": "square.grid.3x3",
+    "available": false
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB",
+    "iconName": "rectangle.stack",
+    "available": true
+  },
+  {
+    "id": "polars",
+    "name": "Polars",
+    "iconName": "snowflake",
+    "available": false
+  },
+  {
+    "id": "parquet",
+    "name": "Parquet Tools",
+    "iconName": "archivebox",
+    "available": true
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "iconName": "swift",
+    "available": true
+  },
+  {
+    "id": "swiftui",
+    "name": "SwiftUI",
+    "iconName": "rectangle.3.group",
+    "available": false
+  },
+  {
+    "id": "xcodebuild",
+    "name": "xcodebuild",
+    "iconName": "hammer",
+    "available": true
+  },
+  {
+    "id": "xcrun",
+    "name": "xcrun",
+    "iconName": "wrench",
+    "available": true
+  },
+  {
+    "id": "sf_symbols",
+    "name": "SF Symbols",
+    "iconName": "square.grid.3x3.fill",
+    "available": false
+  },
+  {
+    "id": "mas_cli",
+    "name": "mas-cli",
+    "iconName": "cart",
+    "available": true
+  },
+  {
+    "id": "openssl",
+    "name": "OpenSSL",
+    "iconName": "lock.open",
+    "available": true
+  },
+  {
+    "id": "gpg",
+    "name": "GPG",
+    "iconName": "key.fill",
+    "available": true
+  },
+  {
+    "id": "age",
+    "name": "age Encryption",
+    "iconName": "lock.rectangle",
+    "available": false
+  },
+  {
+    "id": "vault",
+    "name": "HashiCorp Vault",
+    "iconName": "lock.shield",
+    "available": true
+  },
+  {
+    "id": "ubiquiti",
+    "name": "Ubiquiti",
+    "iconName": "wifi",
+    "available": false
+  },
+  {
+    "id": "omada",
+    "name": "TP-Link Omada",
+    "iconName": "wave.3.left",
+    "available": false
+  },
+  {
+    "id": "glnet",
+    "name": "GL.iNet",
+    "iconName": "wifi.circle",
+    "available": false
+  },
+  {
+    "id": "mdns",
+    "name": "mDNS Reflector",
+    "iconName": "dot.radiowaves.up.forward",
+    "available": false
+  },
+  {
+    "id": "vlans",
+    "name": "VLANs",
+    "iconName": "rectangle.3.group",
+    "available": false
+  },
+  {
+    "id": "adguard",
+    "name": "AdGuard Home",
+    "iconName": "shield.lefthalf.filled",
+    "available": false
+  },
+  {
+    "id": "homeassistant",
+    "name": "Home Assistant",
+    "iconName": "house",
+    "available": true
+  },
+  {
+    "id": "samba",
+    "name": "Samba / File Share",
+    "iconName": "folder",
+    "available": false
+  },
+  {
+    "id": "portainer",
+    "name": "Portainer",
+    "iconName": "shippingbox.fill",
+    "available": false
+  },
+  {
+    "id": "esp32",
+    "name": "ESP32",
+    "iconName": "cpu",
+    "available": false
+  },
+  {
+    "id": "esp8266",
+    "name": "ESP8266",
+    "iconName": "cpu",
+    "available": false
+  },
+  {
+    "id": "esp32c6",
+    "name": "ESP32-C6",
+    "iconName": "cpu",
+    "available": false
+  },
+  {
+    "id": "arduino",
+    "name": "Arduino",
+    "iconName": "bolt",
+    "available": true
+  },
+  {
+    "id": "platformio",
+    "name": "PlatformIO",
+    "iconName": "building",
+    "available": true
+  },
+  {
+    "id": "esptool",
+    "name": "esptool",
+    "iconName": "arrow.down.circle",
+    "available": true
+  },
+  {
+    "id": "mqtt",
+    "name": "MQTT",
+    "iconName": "bubble.left.and.bubble.right",
+    "available": true
+  },
+  {
+    "id": "zigbee2mqtt",
+    "name": "Zigbee2MQTT",
+    "iconName": "dot.radiowaves.up.forward",
+    "available": false
+  },
+  {
+    "id": "esphome",
+    "name": "ESPHome",
+    "iconName": "house.fill",
+    "available": true
+  },
+  {
+    "id": "canbus",
+    "name": "CAN Bus Tools",
+    "iconName": "car.fill",
+    "available": true
+  },
+  {
+    "id": "logic_analyzer",
+    "name": "Logic Analyzer",
+    "iconName": "waveform.path.ecg",
+    "available": false
+  },
+  {
+    "id": "blehid",
+    "name": "Bluetooth HID",
+    "iconName": "wave.3.right",
+    "available": false
+  },
+  {
+    "id": "matter",
+    "name": "Matter / HomeKit",
+    "iconName": "house.circle",
+    "available": false
+  },
+  {
+    "id": "smartplug",
+    "name": "Smart Plug Dev",
+    "iconName": "powerplug",
+    "available": false
+  },
+  {
+    "id": "obd",
+    "name": "OBD Device Dev",
+    "iconName": "car",
+    "available": false
+  },
+  {
+    "id": "sip",
+    "name": "SIP Intercom",
+    "iconName": "phone",
+    "available": false
+  },
+  {
+    "id": "walkietalkie",
+    "name": "Walkie-Talkie System",
+    "iconName": "mic",
+    "available": false
+  },
+  {
+    "id": "tradingbot",
+    "name": "Trading Bot Architecture",
+    "iconName": "chart.line.uptrend.xyaxis",
+    "available": false
+  },
+  {
+    "id": "futures",
+    "name": "Futures Trading App",
+    "iconName": "chart.pie",
+    "available": false
+  },
+  {
+    "id": "indicator",
+    "name": "Triple Stochastic Indicator",
+    "iconName": "waveform.path.ecg",
+    "available": false
+  },
+  {
+    "id": "cleanshot",
+    "name": "Screenshot Tools",
+    "iconName": "camera",
+    "available": false
+  },
+  {
+    "id": "branding",
+    "name": "Branding / UI",
+    "iconName": "paintpalette",
+    "available": false
+  },
+  {
+    "id": "portfolio",
+    "name": "Portfolio Dev",
+    "iconName": "person.crop.rectangle",
+    "available": false
+  },
+  {
+    "id": "solarcalc",
+    "name": "Solar ROI Analysis",
+    "iconName": "sun.max",
+    "available": false
+  },
+  {
+    "id": "nasbuild",
+    "name": "NAS Build (EPYC)",
+    "iconName": "externaldrive",
+    "available": false
+  },
+  {
+    "id": "powerstrip",
+    "name": "Smart Power Strip",
+    "iconName": "powerplug",
+    "available": false
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "iconName": "laptopcomputer",
+    "available": true
+  },
+  {
+    "id": "bash",
+    "name": "Bash",
+    "iconName": "terminal",
+    "available": true
+  },
+  {
+    "id": "json",
+    "name": "JSON",
+    "iconName": "curlybraces.square",
+    "available": true
+  },
+  {
+    "id": "api",
+    "name": "API Integration",
+    "iconName": "point.3.connected.trianglepath",
+    "available": false
+  }
 ]
