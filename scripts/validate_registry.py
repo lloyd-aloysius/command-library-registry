@@ -52,7 +52,7 @@ def validate(root):
                         errors.append(f'{category_id}/{command["id"]}: documentationURL must be credential-free HTTPS')
                 parameters = command.get("parameters", [])
                 names = [parameter.get("name") for parameter in parameters]
-                tokens = set(re.findall(r"<([A-Za-z][A-Za-z0-9_-]*)>", command["command"]))
+                tokens = set(re.findall(r"<([A-Za-z][A-Za-z0-9_.-]*)>", command["command"]))
                 if len(names) != len(set(names)) or any(name not in tokens for name in names):
                     errors.append(f'{category_id}/{command["id"]}: parameter names must uniquely match placeholders')
             count += len(commands)
